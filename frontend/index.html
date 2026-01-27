@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Segmentation Tool - NLP Project</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sentence Segmentation Tool</h1>
+            <p class="subtitle">A Web-Based NLP Tool Using Natural Language Processing</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="language-select">Language:</label>
+                        <select id="language-select">
+                            <option value="en" selected>English</option>
+                            <option value="fr">French</option>
+                            <option value="de">German</option>
+                            <option value="es">Spanish</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="method-select">Method:</label>
+                        <select id="method-select">
+                            <option value="spacy" selected>spaCy (Proposed)</option>
+                            <option value="baseline">Baseline (Regex)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="text-input-container">
+                    <label for="text-input">Enter text to segment:</label>
+                    <textarea 
+                        id="text-input" 
+                        placeholder="Enter your text here...&#10;&#10;Example: Dr. Smith went to the U.S.A. in 2020. He visited New York, N.Y. The weather was great! He said, &quot;This is amazing.&quot;"
+                        rows="8"
+                    ></textarea>
+                </div>
+
+                <button id="segment-btn" class="segment-button">
+                    <span>Segment Sentences</span>
+                </button>
+            </div>
+
+            <div class="output-section" id="output-section" style="display: none;">
+                <h2>Segmented Sentences</h2>
+                <div class="output-info">
+                    <span id="sentence-count"></span>
+                    <span id="method-info"></span>
+                </div>
+                <div id="sentences-output" class="sentences-container"></div>
+            </div>
+
+            <div class="error-section" id="error-section" style="display: none;">
+                <div class="error-message" id="error-message"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Bachelor-Level Academic Project - NLP Sentence Segmentation</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

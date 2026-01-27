@@ -1,0 +1,11 @@
+{
+  "sentences": [
+    "Dr. Smith went to the U.S.A. in 2020.",
+    "He visited New York, N.Y. and Los Angeles, Calif.",
+    "The weather was great!",
+    "He said, \"This is amazing.\"",
+    "Then he returned home."
+  ],
+  "text": "Dr. Smith went to the U.S.A. in 2020. He visited New York, N.Y. and Los Angeles, Calif. The weather was great! He said, \"This is amazing.\" Then he returned home.",
+  "description": "Sample gold standard data with abbreviations and punctuation"
+}

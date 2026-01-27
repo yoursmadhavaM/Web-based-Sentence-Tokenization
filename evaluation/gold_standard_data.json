@@ -1,0 +1,68 @@
+{
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "description": "Text with abbreviations and complex punctuation",
+      "text": "Dr. Smith went to the U.S.A. in 2020. He visited New York, N.Y. and Los Angeles, Calif. The weather was great! He said, \"This is amazing.\" Then he returned home.",
+      "sentences": [
+        "Dr. Smith went to the U.S.A. in 2020.",
+        "He visited New York, N.Y. and Los Angeles, Calif.",
+        "The weather was great!",
+        "He said, \"This is amazing.\"",
+        "Then he returned home."
+      ]
+    },
+    {
+      "id": "dataset_2",
+      "description": "Text with decimal numbers and scientific notation",
+      "text": "The temperature was 98.6 degrees. The price is $19.99. The value of pi is approximately 3.14159. We measured 2.5 meters.",
+      "sentences": [
+        "The temperature was 98.6 degrees.",
+        "The price is $19.99.",
+        "The value of pi is approximately 3.14159.",
+        "We measured 2.5 meters."
+      ]
+    },
+    {
+      "id": "dataset_3",
+      "description": "Text with multiple sentence types and quotations",
+      "text": "Prof. Johnson asked, \"What time is it?\" The student replied, \"It's 3:00 p.m.\" They discussed the topic at length. Finally, they agreed!",
+      "sentences": [
+        "Prof. Johnson asked, \"What time is it?\"",
+        "The student replied, \"It's 3:00 p.m.\"",
+        "They discussed the topic at length.",
+        "Finally, they agreed!"
+      ]
+    },
+    {
+      "id": "dataset_4",
+      "description": "Text with titles, honorifics, and addresses",
+      "text": "Mr. and Mrs. Brown live on Main St. They work for ABC Inc. Their address is 123 Oak Ave., Suite 4B. They moved there in Jan. 2021.",
+      "sentences": [
+        "Mr. and Mrs. Brown live on Main St.",
+        "They work for ABC Inc.",
+        "Their address is 123 Oak Ave., Suite 4B.",
+        "They moved there in Jan. 2021."
+      ]
+    },
+    {
+      "id": "dataset_5",
+      "description": "Complex text with ellipsis and multiple punctuation",
+      "text": "She thought about it... then decided. \"Wait!\" he exclaimed. \"Are you sure?\" She nodded. \"Yes, I'm certain.\"",
+      "sentences": [
+        "She thought about it... then decided.",
+        "\"Wait!\" he exclaimed.",
+        "\"Are you sure?\"",
+        "She nodded.",
+        "\"Yes, I'm certain.\""
+      ]
+    }
+  ],
+  "metadata": {
+    "total_sentences": 22,
+    "total_datasets": 5,
+    "language": "en",
+    "annotation_date": "2024",
+    "annotator": "Manual annotation for academic evaluation"
+  }
+}
